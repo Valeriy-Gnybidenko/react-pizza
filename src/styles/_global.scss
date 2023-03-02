@@ -8,12 +8,12 @@
 .container {
   width: 100%;
   position: relative;
-  padding-left: vw(75);
-  padding-right: vw(75);
+  padding-left: vw(40);
+  padding-right: vw(40);
 
   @media (max-width: $br1) {
-    padding-left: 32px;
-    padding-right: 32px;
+    padding-left: 26px;
+    padding-right: 26px;
   }
 
   @media (max-width: $br3) {
@@ -79,4 +79,26 @@
   max-width: 100%;
   object-fit: cover;
   // aspect-ratio: ratio(800, 800);
+}
+
+.app {
+  padding: vw(45) vw(55);
+  height: 100%;
+  width: 100%;
+  background-color: #ffdf8c;
+
+  @media (max-width: $br1) {
+    padding: 16px 20px;
+  }
+
+  @media (max-width: $br4) {
+    padding: 18px 10px;
+  }
+}
+
+.wrapper {
+  height: 100%;
+  width: 100%;
+  background-color: var(--white);
+  border-radius: 10px;
 }
