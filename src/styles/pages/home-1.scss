@@ -1,0 +1,66 @@
+.home-1__line {
+  width: 100%;
+  height: 2px;
+  background-color: #f6f6f6;
+}
+
+.home-1__menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: vw(40);
+
+  @media (max-width: $br1) {
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 14px;
+    margin-top: 30px;
+  }
+}
+
+.home-1__sort-btn {
+  display: flex;
+  align-items: center;
+  column-gap: vw(8);
+  background-color: transparent;
+  padding: vw(10) 0;
+
+  @media (max-width: $br1) {
+    padding: 10px 0;
+    column-gap: 6px;
+  }
+}
+
+.home-1__sort-arrow {
+  svg {
+    display: block;
+    width: vw(10);
+    height: vw(6);
+
+    @media (max-width: $br1) {
+      width: 10px;
+      height: 6px;
+    }
+  }
+}
+
+.home-1__sort-text {
+  display: flex;
+  align-items: center;
+  column-gap: vw(8);
+  font-family: 'Montserrat Bold';
+  font-weight: 700;
+  font-size: vw(14);
+  letter-spacing: 0.015em;
+
+  @media (max-width: $br1) {
+    column-gap: 6px;
+    font-size: 14px;
+  }
+}
+
+.home-1__sort-name {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  color: #fe5f1e;
+}
