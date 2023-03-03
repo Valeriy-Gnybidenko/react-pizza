@@ -3,22 +3,71 @@ const Filter = () => {
     <>
       <ul className="filter">
         <li className="filter__li">
-          <button className="filter__btn">Усі</button>
+          <input
+            id="filter__input-radio1"
+            className="filter__radio"
+            type="radio"
+            name="filter-radios"
+            defaultChecked
+          />
+          <label className="filter__text" htmlFor="filter__input-radio1">
+            Усі
+          </label>
         </li>
         <li className="filter__li">
-          <button className="filter__btn">М'ясні</button>
+          <input
+            id="filter__input-radio2"
+            className="filter__radio"
+            type="radio"
+            name="filter-radios"
+          />
+          <label className="filter__text" htmlFor="filter__input-radio2">
+            М'ясні
+          </label>
         </li>
         <li className="filter__li">
-          <button className="filter__btn">Вегетаріанські</button>
+          <input
+            id="filter__input-radio3"
+            className="filter__radio"
+            type="radio"
+            name="filter-radios"
+          />
+          <label className="filter__text" htmlFor="filter__input-radio3">
+            Вегетаріанські
+          </label>
         </li>
         <li className="filter__li">
-          <button className="filter__btn">Гриль</button>
+          <input
+            id="filter__input-radio4"
+            className="filter__radio"
+            type="radio"
+            name="filter-radios"
+          />
+          <label className="filter__text" htmlFor="filter__input-radio4">
+            Гриль
+          </label>
         </li>
         <li className="filter__li">
-          <button className="filter__btn">Гострі</button>
+          <input
+            id="filter__input-radio5"
+            className="filter__radio"
+            type="radio"
+            name="filter-radios"
+          />
+          <label className="filter__text" htmlFor="filter__input-radio5">
+            Гострі
+          </label>
         </li>
         <li className="filter__li">
-          <button className="filter__btn">Закрита</button>
+          <input
+            id="filter__input-radio6"
+            className="filter__radio"
+            type="radio"
+            name="filter-radios"
+          />
+          <label className="filter__text" htmlFor="filter__input-radio6">
+            Закрита
+          </label>
         </li>
       </ul>
     </>
