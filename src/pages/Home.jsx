@@ -1,6 +1,6 @@
 import Filter from '../components/Filter'
-import IconArrowUp from '../components/icons/IconArrowUp'
 import Items from '../components/Items'
+import Sort from '../components/Sort'
 
 const Home = () => {
   return (
@@ -12,15 +12,9 @@ const Home = () => {
             <div className="home-1__filter-wrapper">
               <Filter />
             </div>
-            <button className="home-1__sort-btn">
-              <span className="home-1__sort-arrow">
-                <IconArrowUp />
-              </span>
-              <p className="home-1__sort-text">
-                Сортування за:
-                <span className="home-1__sort-name">популярністю</span>
-              </p>
-            </button>
+            <div className="home-1__sort-wrapper">
+              <Sort />
+            </div>
           </div>
           <div className="home-1__content">
             <h2 className="home-1__title">Усі піци</h2>

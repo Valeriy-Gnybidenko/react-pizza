@@ -30,6 +30,11 @@
   font-weight: 700;
   font-size: vw(16);
   cursor: pointer;
+  transition: background-color 0.2s ease;
+
+  &:hover {
+    background-color: #dbdbdb;
+  }
 
   @media (max-width: $br1) {
     font-size: 14px;

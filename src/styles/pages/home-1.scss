@@ -18,49 +18,25 @@
   }
 }
 
-.home-1__sort-btn {
-  display: flex;
-  align-items: center;
-  column-gap: vw(8);
-  background-color: transparent;
-  padding: vw(10) 0;
+.home-1__content {
+  margin-top: vw(32);
 
   @media (max-width: $br1) {
-    padding: 10px 0;
-    column-gap: 6px;
+    margin-top: 24px;
   }
 }
 
-.home-1__sort-arrow {
-  svg {
-    display: block;
-    width: vw(10);
-    height: vw(6);
-
-    @media (max-width: $br1) {
-      width: 10px;
-      height: 6px;
-    }
-  }
-}
-
-.home-1__sort-text {
-  display: flex;
-  align-items: center;
-  column-gap: vw(8);
+.home-1__title {
   font-family: 'Montserrat Bold';
   font-weight: 700;
-  font-size: vw(14);
-  letter-spacing: 0.015em;
+  font-size: vw(32);
+  letter-spacing: 0.01em;
 
   @media (max-width: $br1) {
-    column-gap: 6px;
-    font-size: 14px;
+    font-size: 28px;
   }
-}
 
-.home-1__sort-name {
-  font-family: 'Montserrat';
-  font-weight: 400;
-  color: #fe5f1e;
+  @media (max-width: $br1) {
+    font-size: 20px;
+  }
 }
